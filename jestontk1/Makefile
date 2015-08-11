@@ -5,9 +5,9 @@ ifneq (,)
 This makefile requires GNU Make.
 endif
  
-PROGRAM = canonicalarduinoread
-C_FILES := $(wildcard *.c)
-OBJS := $(patsubst %.c, %.o, $(C_FILES))
+PROGRAM = canonicalarduinoread_struct2
+C_FILES := canonicalarduinoread_struct2.c
+OBJS := canonicalarduinoread_struct2.o
 CC = cc
 CFLAGS =
 LDFLAGS = 
